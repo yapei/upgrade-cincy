@@ -1,24 +1,24 @@
 {
   "nodes": [
     {
-      "version": "4.11.0-0.nightly-2022-05-04-214114",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:30452e14cbefed21f883ac38652b9dbaf653a922a1ca0efd6f3a1a10acfc2e1c"
+      "version": "4.16.0-0.nightly-2024-05-08-222442",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:0a4c3794aa399948c109ec28e6383cb7912c60268318f17958e0aedcb73361ac"
     },
     {
-      "version": "4.11.0-0.nightly-2022-05-05-015322",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:fa9f5b895b56d111fed90a3bb838d96869efd832b56eb6e7c59d8687c7466c3f"
+      "version": "4.16.0-0.nightly-2024-05-12-134923",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:f31720a681483bc7caccf21c0b336a2b32d4b17b6233e0b0670d712373fbb469"
     },
     {
-      "version": "4.11.0-0.nightly-2022-05-05-061544",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:ffd29580ac1fe558255d82b4455a26cc1a8f24d2bfdbc1b78b8a0fa48e8f7199"
+      "version": "4.16.0-0.nightly-2024-05-12-202918",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:39702d12b4e2e86ecaa1d5d8ca7a86a426d4266b1a2b96dd08a0ac345f197e42"
     },
     {
-      "version": "4.11.0-0.nightly-2022-05-05-123736",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:39c9f997aadf6618a06e5653c95ae5e2c2c8be404af9719c010cc8bd7b9b8bfd"
+      "version": "4.16.0-0.nightly-2024-05-13-011739",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:0cd388ff1845c65cf45361f92e29a3d5616513520e7db38a28df4b454337c1a2"
     },
     {
-      "version": "4.12.0-0.nightly-2022-05-06-204048",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:39c9f997aadf6618a06e5653c95ae5e2c2c8be404af9719c010cc8bd7b9b8bfd"
+      "version": "4.16.0-0.nightly-2024-05-13-053006",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:34b232cef0a09864e9d1ca17aa1a4f64739d7f907e3788e2663b436441fbb089"
     }
   ],
   "edges": [
@@ -30,7 +30,7 @@
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.11.0-0.nightly-2022-05-04-214114", "to": "4.11.0-0.nightly-2022-05-05-015322"}
+        {"from": "4.16.0-0.nightly-2024-05-08-222442", "to": "4.16.0-0.nightly-2024-05-12-134923"}
       ],
       "risks": [
         {
@@ -63,7 +63,7 @@
     },
     {
       "edges": [
-        {"from": "4.11.0-0.nightly-2022-05-04-214114", "to": "4.11.0-0.nightly-2022-05-05-061544"}
+        {"from": "4.16.0-0.nightly-2024-05-08-222442", "to": "4.16.0-0.nightly-2024-05-12-202918"}
       ],
       "risks": [
         {
@@ -80,7 +80,7 @@
     },
     {
       "edges": [
-        {"from": "4.11.0-0.nightly-2022-05-04-214114", "to": "4.11.0-0.nightly-2022-05-05-123736"}
+        {"from": "4.16.0-0.nightly-2024-05-08-222442", "to": "4.16.0-0.nightly-2024-05-13-011739"}
       ],
       "risks": [
         {
@@ -100,7 +100,7 @@
     },
     {
       "edges": [
-        {"from": "4.11.0-0.nightly-2022-05-04-214114", "to": "4.12.0-0.nightly-2022-05-06-204048"}
+        {"from": "4.16.0-0.nightly-2024-05-08-222442", "to": "4.16.0-0.nightly-2024-05-13-053006"}
       ],
       "risks": [
         {
