@@ -1,32 +1,20 @@
 {
   "nodes": [
     {
-      "version": "4.17.2",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:e63e11532f9ee550219f076530ce449a5e2ce6f6179e5ccdaf55ce68092e7021",
-      "metadata": {
-        "io.openshift.upgrades.graph.release.channels": "channel-a,channel-b,stable-4.17"
-      }
+      "version": "4.18.0-0.nightly-2024-10-29-112337",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:5179a5eb549556a6d14e8b6c6bf990a1ffa5e14b912f30b4fbf4ef0be06f4799"
     },
     {
-      "version": "4.17.3",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:2bf757225166a2d1f51370f0bd2ec734bcc8cf759fa1a53ab9531ce8c584c17c",
-      "metadata": {
-        "io.openshift.upgrades.graph.release.channels": "channel-a,channel-b,stable-4.17"
-      }
+      "version": "4.18.0-0.nightly-2024-10-29-182618",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:9dbc3600441a49906c3abb6f3e27fe1d4c8d03769c69c15157a4a7a69d92cc06"
     },
     {
-      "version": "4.17.4",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:bada2d7626c8652e0fb68d3237195cb37f425e960347fbdd747beb17f671cf13",
-      "metadata": {
-        "io.openshift.upgrades.graph.release.channels": "channel-a,channel-b,stable-4.17"
-      }
+      "version": "4.18.0-0.nightly-2024-10-29-230524",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:59da9c01d3c51931dd0fc9700069082dae2a02098d5698dbd92b6f14a63d012f"
     },
     {
-      "version": "4.17.5",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:02d489ee6aac3bed3cf6f3db81d72ab0215222a870784f81b6e7942cb4883944",
-      "metadata": {
-        "io.openshift.upgrades.graph.release.channels": "channel-a,channel-b,stable-4.17"
-      }
+      "version": "4.18.0-0.nightly-2024-10-30-063750",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:32520b17d1fedc28b346a523ebddee4859570310feb89b98026c688e6d8f1dfb"
     }
   ],
   "edges": [
@@ -47,8 +35,8 @@
     {
       "edges": [
         {
-          "from": "4.17.2",
-          "to": "4.17.3"
+          "from": "4.18.0-0.nightly-2024-10-29-112337",
+          "to": "4.18.0-0.nightly-2024-10-29-182618"
         }
       ],
       "risks": [
@@ -83,13 +71,13 @@
     {
       "edges": [
         {
-          "from": "4.17.2",
-          "to": "4.17.4"
+          "from": "4.18.0-0.nightly-2024-10-29-112337",
+          "to": "4.18.0-0.nightly-2024-10-29-230524"
         }
       ],
       "risks": [
         {
-          "url": "https://amd64.ocp.releases.ci.openshift.org/releasestream/4.11.0-0.nightly/release/4.17.4",
+          "url": "https://amd64.ocp.releases.ci.openshift.org/releasestream/4.11.0-0.nightly/release/4.18.0-0.nightly-2024-10-29-230524",
           "name": "ReleaseIsRejected",
           "message": "Too many CI failures on this release, so do not update to it",
           "matchingRules": [
@@ -103,8 +91,8 @@
     {
       "edges": [
         {
-          "from": "4.17.2",
-          "to": "4.17.5"
+          "from": "4.18.0-0.nightly-2024-10-29-112337",
+          "to": "4.18.0-0.nightly-2024-10-30-063750"
         }
       ],
       "risks": [
